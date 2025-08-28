@@ -56,6 +56,7 @@ server.port=8080
 ## Uso de la API
 
 ### 1. Inicio de Sesión
+#### Ejemplo de petición HTTP
 ```http
 POST /api/auth/login
 Content-Type: application/json
@@ -64,6 +65,16 @@ Content-Type: application/json
   "username": "tu-usuario",
   "password": "tu-contraseña"
 }
+```
+
+#### Ejemplo con cURL
+```bash
+curl --location 'http://127.0.0.1:8080/api/auth/login' \
+--header 'Content-Type: application/json' \
+--data '{
+    "username": "admin",
+    "password": "password"
+}'
 ```
 
 ### 2. Acceso a Endpoint Protegido
@@ -84,7 +95,3 @@ Authorization: Bearer tu-token-jwt
 - Spring Security
 - JSON Web Token (JWT)
 - Maven
-
-## Licencia
-
-[Su Licencia Aquí]
