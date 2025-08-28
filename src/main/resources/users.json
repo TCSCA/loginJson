@@ -1,0 +1,25 @@
+[
+  {
+    "username": "admin",
+    "password": "$2a$10$slYQmyNdGzTn7ZLBXBChFOC9f6kFjAqPhccnP6DxlWXx2lPk1C3G6",
+    "enabled": true,
+    "roles": ["ADMIN"]
+  },
+  {
+    "username": "user",
+    "password": "$2a$10$6ZhQ5xvWVOxGZ/6JYJdZgO9L9z9J0XvU7JjU9XkXkXkXkXkXkXkXk",
+    "enabled": true,
+    "roles": ["USER"]
+  },
+
+  {
+    "nombreModulo": "clientes",
+    "status": true,
+    "perfil": "1"
+  },
+  {
+    "nombreModulo": "clientes",
+    "status": false,
+    "perfil": "2"
+  }
+]
